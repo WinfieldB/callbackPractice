@@ -19,12 +19,15 @@ and what you should write is the favNum function that makes the code above work,
       alert(thingToSay); //should alert ('Hi Katie')'
    });
 
-    
+
 */
 
 
 
   //Code Here for first
+function first(nombre, cb) {
+  alert()
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
@@ -39,6 +42,9 @@ first(names, function(firstName){
 
 
   //Code Here for last
+function last(argument) {
+  // body...
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
@@ -57,7 +63,9 @@ last(names, function(lastName){
 
 
   //Code Here for multiply
-
+function multiply(num1, num2, myFunc) {
+  myFunc(num1 * num2);
+}
 multiply(4, 3, function(answer){
   console.log('The answer is ', answer); //should console.log 12
 })
